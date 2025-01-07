@@ -1,0 +1,13 @@
+/* Layout.css */
+main {
+    padding: 20px;
+    padding-top: 80px; /* Adjust this value to match the height of your Navbar */
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  

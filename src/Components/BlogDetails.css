@@ -1,0 +1,97 @@
+.blog-details {
+  padding: 20px;
+}
+
+.blog-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.blog-image {
+  flex: 0 0 40%; /* Set the image section to take up 40% of the container */
+  margin-right: 20px; /* Space between image and content */
+}
+
+.blog-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-content {
+  flex: 1; /* The content section takes the remaining space */
+}
+
+.blog-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.blog-meta .date, .blog-meta .category {
+  font-size: 1rem;
+  color: gray;
+}
+
+.blog-meta .date span {
+  margin-left: 5px;
+}
+
+.blog-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.reviews-section {
+  margin-top: 40px;
+}
+
+.reviews-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.review {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.review .reviewer {
+  font-weight: bold;
+}
+
+.newsletter {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.newsletter h3 {
+  font-size: 1.2rem;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,88 @@
+.blog-list {
+  padding: 20px;
+}
+
+.blog-cards {
+  top:auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  gap: 20px; /* Increase the space between cards */
+}
+
+.blog-card {
+  background-color: #fff; /* Slightly increased padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 100%; /* Ensure the card takes up the full width available */
+  max-width: 685px; /* Set a max-width so it doesn't stretch too much */
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-container {
+  position: relative;
+  top: 3rem;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between; /* Space between the header and search bar */
+  align-items: center; /* Vertically centers the content */
+  margin-bottom: 20px; /* Adds space below the header */
+  bottom: 10rem;
+}
+
+.header-title {
+  font-size: 50px;
+  font-weight: bold;
+  left: 0.8rem;
+  position: absolute;
+  margin: 0; /* Removes any default margin */
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns search bar to the right */
+}
+
+.blog-search-bar {
+  width: 37.75%; /* Adjust as needed */
+  position: absolute;
+  right: 0rem;
+  padding: 0px;
+  top: 1rem;
+  font-size: 25px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-button {
+  position: absolute;
+  padding: 0px 0px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  right: 4.5rem;
+  margin-left: 0px; /* Adds space between the input and button */
+}
+
+.blog-search-bar::placeholder {
+  color: black; /* Change this to your desired placeholder color */
+}
+
+
