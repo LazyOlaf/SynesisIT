@@ -22,9 +22,10 @@ This project is a React-based blog application that allows users to view, search
 1. Clone the Repository:
 
    git clone https://github.com/LazyOlaf/SynesisIT.git
+   
    cd SynesisIT
 
-2. Install Dependencies:
+3. Install Dependencies:
 
    npm install
 
