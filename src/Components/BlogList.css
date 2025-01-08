@@ -6,7 +6,8 @@
   top:auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
-  gap: 20px; /* Increase the space between cards */
+  padding-top: 150px;
+  gap: 80px; /* Increase the space between cards */
 }
 
 .blog-card {
@@ -43,7 +44,6 @@
   justify-content: space-between; /* Space between the header and search bar */
   align-items: center; /* Vertically centers the content */
   margin-bottom: 20px; /* Adds space below the header */
-  bottom: 10rem;
 }
 
 .header-title {
@@ -57,28 +57,26 @@
 .search-container {
   display: flex;
   justify-content: flex-end; /* Aligns search bar to the right */
+  align-items: center;
+  padding: 1rem;
+  width: 100%; /* Ensure the container takes the full width */
+  box-sizing: border-box;
 }
 
 .blog-search-bar {
-  width: 37.75%; /* Adjust as needed */
-  position: absolute;
-  right: 0rem;
-  padding: 0px;
-  top: 1rem;
+  width: 33%; /* Adjust as needed */
   font-size: 25px;
   border-radius: 5px;
   outline: none;
+  margin-right: 1rem;
 }
 
 .search-button {
-  position: absolute;
-  padding: 0px 0px;
+  position: relative;
   font-size: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  right: 4.5rem;
-  margin-left: 0px; /* Adds space between the input and button */
 }
 
 .blog-search-bar::placeholder {

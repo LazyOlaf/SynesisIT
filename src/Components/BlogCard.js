@@ -18,10 +18,10 @@ const BlogCard = ({ title, image, excerpt, category, date, onReadMore }) => {
 
       <div className="blog-card-content">
         <h2 className="blog-card-title">{title}</h2>
-        <p className="blog-card-excerpt">{excerpt}...</p>
-        <div className="blog-card-buttons">
-          <button onClick={onReadMore}>Read More</button>
-        </div>
+        <p className="blog-card-excerpt">
+          {excerpt}.... 
+          <button href="#" className="read-more" onClick={onReadMore}> Read More</button>
+        </p>
       </div>
     </div>
   );

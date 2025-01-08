@@ -11,6 +11,7 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
+    "blog-api": "file:",
     "express": "^4.21.2"
   }
 }
